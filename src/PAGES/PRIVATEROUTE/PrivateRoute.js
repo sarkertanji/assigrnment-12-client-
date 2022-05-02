@@ -5,7 +5,7 @@ import useAuth from "../../HOOKS/useAuth";
 
 const PrivateRoute = ({ children }) => {
   const location = useLocation();
-  const { user, isLoading, admin } = useAuth();
+  const { user, isLoading } = useAuth();
   if (isLoading) {
     return (
       <Spinner
