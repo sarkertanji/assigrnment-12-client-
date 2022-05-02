@@ -14,7 +14,7 @@ const AddProductsAdmin = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:5000/products", {
+    fetch("https://whispering-sands-47045.herokuapp.com/products", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

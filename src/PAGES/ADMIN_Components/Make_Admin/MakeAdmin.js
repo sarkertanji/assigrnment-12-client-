@@ -10,7 +10,7 @@ const MakeAdmin = () => {
   const handleOnSubmit = (e) => {
     e.preventDefault();
     const updateUser = { user };
-    const url = `http://localhost:5000/users`;
+    const url = `https://whispering-sands-47045.herokuapp.com/users`;
 
     fetch(url, {
       method: "PUT",

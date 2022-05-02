@@ -5,7 +5,7 @@ import HomePageSingleProduct from "../singleProduct/HomePageSingleProduct";
 const ProductsForHomePage = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/products?home=home`)
+    fetch(`https://whispering-sands-47045.herokuapp.com/products?home=home`)
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

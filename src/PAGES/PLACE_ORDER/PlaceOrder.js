@@ -16,7 +16,7 @@ const PlaceOrder = () => {
   const [singleProduct, setSingleProduct] = useState([]);
 
   useEffect(() => {
-    const url = `http://localhost:5000/products/${id} `;
+    const url = `https://whispering-sands-47045.herokuapp.com/products/${id} `;
     fetch(url)
       .then((res) => res.json())
       .then((data) => setSingleProduct(data));

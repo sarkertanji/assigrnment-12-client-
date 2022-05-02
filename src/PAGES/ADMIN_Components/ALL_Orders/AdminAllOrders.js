@@ -13,7 +13,7 @@ const AdminAllOrders = () => {
   const [orders, setorders] = useState([]);
   const [orderStatus, setOrderStatus] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:5000/orders")
+    fetch("https://whispering-sands-47045.herokuapp.com/orders")
       .then((res) => res.json())
       .then((data) => {
         setorders(data);
@@ -21,7 +21,7 @@ const AdminAllOrders = () => {
   }, [orderStatus]);
   const handleShepmentToggol = (id) => {
     const productId = { productId: id };
-    const url = `http://localhost:5000/orders`;
+    const url = `https://whispering-sands-47045.herokuapp.com/orders`;
     fetch(url, {
       method: "PUT",
       headers: {

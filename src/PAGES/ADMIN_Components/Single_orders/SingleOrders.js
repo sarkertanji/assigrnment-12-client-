@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const SingleOrders = ({ product_Id }) => {
   const [product, setProduct] = useState({});
   useEffect(() => {
-    fetch(`http://localhost:5000/products/${product_Id}`)
+    fetch(`https://whispering-sands-47045.herokuapp.com/products/${product_Id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [product_Id]);

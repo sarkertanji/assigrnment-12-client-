@@ -12,7 +12,7 @@ const ManageProductsAdmin = () => {
   const [products, setProducts] = useState([]);
   const [deleteConfirm, setDeleteConfirm] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://whispering-sands-47045.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
@@ -24,7 +24,7 @@ const ManageProductsAdmin = () => {
     const procced = window.confirm("Are you sure you wanna cancled the order?");
     if (procced) {
       const productId = { id: id };
-      fetch(`http://localhost:5000/products`, {
+      fetch(`https://whispering-sands-47045.herokuapp.com/products`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

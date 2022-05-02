@@ -27,7 +27,7 @@ const OrderFrom = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = `http://localhost:5000/orders`;
+    const url = `https://whispering-sands-47045.herokuapp.com/orders`;
     fetch(url, {
       method: "POST",
       headers: {

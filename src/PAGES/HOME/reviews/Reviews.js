@@ -5,7 +5,7 @@ import "./reviews.css";
 const Reviews = () => {
   const [reviews, setRevierw] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://whispering-sands-47045.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setRevierw(data));
   }, []);

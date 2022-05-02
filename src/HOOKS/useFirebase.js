@@ -102,7 +102,7 @@ const useFirebase = () => {
   }, []);
 
   useEffect(() => {
-    const url = `http://localhost:5000/users/${user?.email}`;
+    const url = `https://whispering-sands-47045.herokuapp.com/users/${user?.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -114,7 +114,7 @@ const useFirebase = () => {
   const saveUser = (email, name) => {
     const userDetail = { email: email, displayName: name };
 
-    fetch("http://localhost:5000/users", {
+    fetch("https://whispering-sands-47045.herokuapp.com/users", {
       method: "POST",
       headers: {
         "content-type": "application/json",

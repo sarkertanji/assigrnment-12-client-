@@ -15,7 +15,7 @@ const MyOrder = () => {
   const [userOrders, setUserOrder] = useState([]);
   const [deleteConfirm, setDeleteConfirm] = useState(false);
   useEffect(() => {
-    const url = `http://localhost:5000/orders/email?email=${user?.email}`;
+    const url = `https://whispering-sands-47045.herokuapp.com/orders/email?email=${user?.email}`;
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
@@ -28,7 +28,7 @@ const MyOrder = () => {
     const procced = window.confirm("Are you sure you wanna cancled the order?");
     if (procced) {
       const productId = { id: id };
-      fetch(`http://localhost:5000/orders`, {
+      fetch(`https://whispering-sands-47045.herokuapp.com/orders`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",

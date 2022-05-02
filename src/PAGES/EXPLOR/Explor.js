@@ -4,7 +4,7 @@ import AllProducts from "../ALL_PRODUCTS_LOAD/AllProducts";
 const Explor = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:5000/products`)
+    fetch(`https://whispering-sands-47045.herokuapp.com/products`)
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

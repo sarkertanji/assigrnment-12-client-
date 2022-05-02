@@ -17,7 +17,7 @@ const MyReviews = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const url = `http://localhost:5000/reviews`;
+    const url = `https://whispering-sands-47045.herokuapp.com/reviews`;
     fetch(url, {
       method: "POST",
       headers: {
