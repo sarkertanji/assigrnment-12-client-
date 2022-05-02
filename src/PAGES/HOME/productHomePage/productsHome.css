@@ -1,0 +1,17 @@
+.products-container {
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(240, 255, 250);
+}
+
+.all-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 5%;
+  column-gap: 25px;
+  row-gap: 30px;
+}

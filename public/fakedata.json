@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/xJG7M9T/img7.jpg",
+        "name": "M62-V3F",
+        "price": "135",
+        "rating": "4",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/5TpTn3P/img8.jpg",
+        "name": "M63-V4G",
+        "price": "420",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/9HP0BHW/img6.jpg",
+        "name": "M67-V4H",
+        "price": "115",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/SKppW08/img10.jpg",
+        "name": "M68-V4J",
+        "price": "512",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/P9BNM2G/img9.jpg",
+        "name": "M69-V4H",
+        "price": "190",
+        "rating": "3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/nrHs3Ck/img11.jpg",
+        "name": "M62-V5F",
+        "price": "200",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/nrHs3Ck/img11.jpg",
+        "name": "M67-V4A",
+        "price": "500",
+        "rating": "4",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/Jj7YXJ4/img13.jpg",
+        "name": "M68-V4G",
+        "price": "550",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/Bc7Gdsb/img12.jpg",
+        "name": "MM4-W32",
+        "price": "500",
+        "rating": "4",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 10,
+        "img": "https://i.ibb.co/2ddZ9CS/img15.jpg",
+        "name": "WW5-93Q",
+        "price": "890",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 11,
+        "img": "https://i.ibb.co/rcnm3B2/img9.jpg",
+        "name": "SSF-W32",
+        "price": "150",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 12,
+        "img": "https://i.ibb.co/X5FVfD9/img14.jpg",
+        "name": "SSP-W31",
+        "price": "150",
+        "rating": "5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 13,
+        "img": "https://i.ibb.co/sCdCRqc/img16.jpg",
+        "name": "SSF-W37",
+        "price": "800",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 14,
+        "img": "https://i.ibb.co/RCj0sv1/img17.jpg",
+        "name": "MM4-EE3",
+        "price": "1000",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 15,
+        "img": "https://i.ibb.co/4Vp8gzf/img18.jpg",
+        "name": "LLP-WW1",
+        "price": "550",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 16,
+        "img": "https://i.ibb.co/5GPTrB4/img2.jpg",
+        "name": "M97-SSP",
+        "price": "480",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 17,
+        "img": "https://i.ibb.co/HCg6X3J/img3.jpg",
+        "name": "FOO-O55",
+        "price": "110",
+        "rating": "3",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 18,
+        "img": "https://i.ibb.co/JdDby2q/img1.jpg",
+        "name": "M97-007",
+        "price": "650",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 19,
+        "img": "https://i.ibb.co/cvWR104/img5.jpg",
+        "name": "LLB-WW0",
+        "price": "400",
+        "rating": "4.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    },
+    {
+        "id": 20,
+        "img": "https://i.ibb.co/y0nxtq4/img4.jpg",
+        "name": "RTP-007",
+        "price": "200",
+        "rating": "3.5",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda nisi corrupti, cupiditate odio quos quam officia itaque voluptatibus mollitia magni aliquid iusto et accusantium voluptatum exercitationem. Doloribus, incidunt saepe! Quas, officiis. Eaque laudantium ab illo earum minus explicabo saepe repellat! Pariatur veritatis ducimus voluptatibus tenetur distinctio doloribus nemo ratione iure."
+    }
+]

@@ -1,0 +1,29 @@
+.footer-conteiner {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(240, 255, 250);
+}
+.icon-container {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.footer-conteiner span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.icon-container i {
+  font-size: 25px;
+  padding: 10px;
+  margin-right: 50px;
+  border: 1px solid lightgray;
+  border-radius: 60%;
+  transition: 0.7s;
+}
+.icon-container i:hover {
+  color: white;
+  background-color: orangered;
+}
