@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -10,7 +10,7 @@ import List from "@mui/material/List";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { Link, Outlet } from "react-router-dom";
+import { Link, NavLink, Outlet } from "react-router-dom";
 import Button from "@mui/material/Button";
 import useAuth from "../../HOOKS/useAuth";
 
@@ -30,26 +30,114 @@ function Dashboard(props) {
       <Toolbar />
       <Divider />
       <List>
-        <Link to="/home">Home</Link>
+        <NavLink
+          style={{
+            textDecoration: "none",
+            padding: "15px",
+            fontWeight: 500,
+            color: "black",
+            fontSize: "20px",
+          }}
+          to="/home"
+        >
+          Home
+        </NavLink>
         <br />
 
         {admin ? (
           <Box>
-            <Link to="/dashboard/allorders">Manage All Orders</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/allorders"
+            >
+              Manage All Orders
+            </NavLink>
             <br />
-            <Link to="/dashboard/manageproduct">Manage products</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/manageproduct"
+            >
+              Manage products
+            </NavLink>
             <br />
-            <Link to="/dashboard/addproduct">Add A Products</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/addproduct"
+            >
+              Add A Products
+            </NavLink>
             <br />
-            <Link to="/dashboard/makeadmin">Make Admin</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/makeadmin"
+            >
+              Make Admin
+            </NavLink>
           </Box>
         ) : (
           <Box>
-            <Link to="/dashboard/myorder">My Order</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/myorder"
+            >
+              My Order
+            </NavLink>
             <br />
-            <Link to="/dashboard/payment">Pay</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/payment"
+            >
+              Pay
+            </NavLink>
             <br />
-            <Link to="/dashboard/review">Review</Link>
+            <NavLink
+              style={{
+                textDecoration: "none",
+                padding: "15px",
+                fontWeight: 500,
+                color: "black",
+                fontSize: "20px",
+              }}
+              to="/dashboard/review"
+            >
+              Review
+            </NavLink>
             <br />
           </Box>
         )}

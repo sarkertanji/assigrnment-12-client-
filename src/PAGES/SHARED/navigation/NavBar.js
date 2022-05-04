@@ -19,7 +19,18 @@ const NavBar = () => {
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav className="me-auto mx-5">
-              <Nav.Link to="/home">Home</Nav.Link>
+              <Link
+                to="/home"
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                  fontWeight: 600,
+                  marginTop: "9px",
+                  marginLeft: "15px",
+                }}
+              >
+                Home
+              </Link>
               <Link
                 to="/dashboard"
                 style={{

@@ -12,6 +12,7 @@ const AddProductsAdmin = () => {
     updateproducts[field] = value;
     setproducts(updateproducts);
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     fetch("https://whispering-sands-47045.herokuapp.com/products", {
@@ -20,7 +21,13 @@ const AddProductsAdmin = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(products),
-    });
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        if (data.acknowledged) {
+          alert("product add succesfully");
+        }
+      });
   };
   return (
     <div>

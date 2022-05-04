@@ -27,3 +27,10 @@
   color: white;
   background-color: orangered;
 }
+
+@media only screen and (max-width: 844px) {
+  .icon-container i {
+    text-align: center;
+    margin-right: 15px;
+  }
+}

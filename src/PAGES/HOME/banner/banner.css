@@ -4,3 +4,9 @@
 #caro-height img {
   height: 100%;
 }
+
+@media only screen and (max-width: 844px) {
+  #caro-height {
+    height: 400px;
+  }
+}

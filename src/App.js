@@ -16,12 +16,15 @@ import Register from "./PAGES/LOGIN/login/Register";
 import PlaceOrder from "./PAGES/PLACE_ORDER/PlaceOrder";
 import PrivateRoute from "./PAGES/PRIVATEROUTE/PrivateRoute";
 import AdminRoute from "./PAGES/ADMIN_ROUTE/AdninRoute";
+import NavBar from "./PAGES/SHARED/navigation/NavBar";
+import Footer from "./PAGES/SHARED/footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <AuthProvider>
         <BrowserRouter>
+          <NavBar></NavBar>
           <Routes>
             <Route path="/" element={<Home></Home>} />
             <Route path="/home" element={<Home></Home>} />
@@ -81,6 +84,7 @@ function App() {
               }
             />
           </Routes>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
